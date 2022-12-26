@@ -90,7 +90,7 @@ void match(){
       }}} 
       */
 void loop() {
-  for (int b=0;b<4;b++){
+        for (int b=0;b<4;b++){
                 for (int c=0;c<4;c++){
                         digitalWrite(col[b],LOW);//电子写入?
                         d = digitalRead(row[c]);//电子读取?
@@ -130,7 +130,7 @@ void loop() {
                                         digitalWrite(11, LOW);
                                         digitalWrite(12, LOW);
                                         digitalWrite(13, LOW);
-                                        }
+                                }
         /*
         Serial.println(b);
         Serial.println(c);
